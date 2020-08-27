@@ -25,3 +25,5 @@ class Config(object):
     CORS_ORIGIN_WHITELIST = ["*"]
 
     JWT_HEADER_TYPE = 'Token'
+
+    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:kmixas@localhost:5432/POss"
